@@ -1,0 +1,28 @@
+*{
+    margin:0;
+      padding:0;
+      box-sizing: border_box;
+  }
+  body{
+      font-family: 'Arial black', sans-serif;
+      color:	#E04726;
+      font-size: 70;
+      
+      
+    } 
+    .partFooter{
+      color: #E04726;
+      font-size: 20px;
+      font-weight: 400;
+      margin-bottom: 30px;   
+     }
+    
+     
+     .partFooter a{
+       display: block;
+       text-decoration: none;
+       color: #0000FF;
+       font-weight: 300;
+       transition: color .3s ease-in-out;
+       margin-bottom: 10px; 
+      }

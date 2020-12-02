@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi tienda</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="conexcion" href="css/conexion.php">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <img class="rounded float-left" src="img/logo2.png" alt="" width="80px" height="80px">
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Inicio <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="comida.html">Comidas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="bebidas.html">Bebidas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Snacks.html">Snacks</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Carrito.html">Hacer pedido</a>
+                    </li>
+
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                </form>
+                <div class="container'md space">
+                    <svg width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-door-open-fill" fill="currentColor"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd"
+                            d="M1.5 15a.5.5 0 0 0 0 1h13a.5.5 0 0 0 0-1H13V2.5A1.5 1.5 0 0 0 11.5 1H11V.5a.5.5 0 0 0-.57-.495l-7 1A.5.5 0 0 0 3 1.5V15H1.5zM11 2v13h1V2.5a.5.5 0 0 0-.5-.5H11zm-2.5 8c-.276 0-.5-.448-.5-1s.224-1 .5-1 .5.448.5 1-.224 1-.5 1z" />
+                    </svg>
+                </div>
+            </div>
+        </nav>
+
+        <div class="Header__Container">
+            <h1 class="title">BIENVENIDO A TU TIENDA ONLINE PREFERIDA (UAC)</h1>
+
+            <div class="content__visual">
+                <img class="w-25 p-3 h-100 d-inline-block"
+                    src="https://image.freepik.com/free-vector/fast-food-restaurant-building-with-drive-thru-service-flat-style-illustration-isolated-white-background_201904-201.jpg"
+                    alt="">
+
+                <img class="w-25 p-3 h-100 d-inline-block"
+                    src="https://image.freepik.com/free-vector/online-shopping-concept-illustration_114360-1187.jpg"
+                    alt="">
+            </div>
+
+            <h2 class="Subtitle"> Aqui te brindamos lo que mas se te antoja comer</h2>
+
+            <img class="content__visualImge" src="https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/v211batch10-audi-171-fastfood_2.jpg?w=1300&dpr=1&fit=default&crop=default&q=80&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=134130f2d86b178896706c85c11763a4" alt="" width="500" height="500"></>
+        </div>
+    </header>
+    <section class="about-us">
+        <div class="contenedor">
+            <center>
+                <h2 class="titulo">Proporcionamos una amplia gama de alimentos</h2>
+            </center>
+            <div class="articulo" align='center' style="float:left">
+                <i class="fas fa-pen-fancy"></i>
+                <h3>El sabor a tu paladar</h3>
+                <p>Tus desayunos y almuerzos mas cerca de ti.
+                </p>
+                <li><a href="comida.html">Vamos</a></li>
+            </div>
+            <div class="articulo" align='center' style="float: left">
+                <i class="fas fa-table"></I>
+                <h3>El sabor de tus Snacks</h3>
+                <p>Arma tus snacks favoritos.
+                </p>
+                <li><a href="Snacks.html">Vamos</a></li>
+            </div>
+            <div class="articulo" align='center' style="float: left">
+                <i class="fas fa-blender"></I>
+                <h3>Saborea tus bebidas</h3>
+                <p>Los sabores de tus bebidas mas cerca de ti.
+                </p>
+                <li><a href="bebidas.html">Vamos</a></li>
+            </div>
+        </div>
+        </div>
+    </section>
+    <br>
+    <br>
+    <hr color="black">
+    <section class="results">
+        <center>
+            <h1>Te presentamos nuestras promociones</h1>
+        </center>
+        <div class="conetendor conten-results">
+            <section class="numbers">
+                <div class="numbers">
+                    <h4>Promocion 1
+                    </h4>
+                    <p>1 refresco natural + una torta de pollo=$25.</p>
+                    <center><input id="prom1" name="submit" type="submit" value="Comprar"></center>
+                </div>
+                <div class="numbers">
+                    <h4>Promocion 2
+                    </h4>
+                    <p>1 refresco de litro + dos sandwiches=$35</p>
+                    <center><input id="prom2" name="submit" type="submit" value="Comprar"></center>
+                </div>
+                <div class="numbers">
+                    <h4>Promocion 3
+                    </h4>
+                    <p>1 refresco natural de medio + 1 sandwich = $20.</p>
+                    <center><input id="prom3" name="submit" type="submit" value="Comprar"></center>
+                </div>
+
+
+        </div>
+    </section>
+    </section>
+    <section class="contenedor1 services">
+        <img src="img/undraw_Hamburger_8ge6.png" alt="">
+        <div class="box-skills">
+            <h4><i class="far fa-check-circle"></i> Web design</h4>
+            <h4><i class="far fa-check-circle"></i> Web development</h4>
+            <h4><i class="far fa-check-circle"></i> SEO</h4>
+            <h4><i class="far fa-check-circle"></i> Marketing</h4>
+            <h4><i class="far fa-check-circle"></i> Web support</h4>
+        </div>
+    </section>
+    <hr color="black">
+    <footer>
+        <div class="partFooter">
+            <img src="img/shopter2.png" alt="">
+        </div>
+        <div class="partFooter">
+            <h4>Servicios</h4>
+            <a href="#">Services 1</a>
+            <a href="#">Services 2</a>
+            <a href="#">Services 3</a>
+
+
+        </div>
+        <div class="partFooter">
+            <h4>Acerca de </h4>
+            <a href="#">About 1</a>
+            <a href="#">About 2</a>
+            <a href="#">About 3</a>
+        </div>
+        <div class="partFooter">
+            <h4>Redes sociales</h4>
+            <i class="fab fa-facebook"></i>
+
+        </div>
+    </footer>
+
+    <script src="https://kit.fontawesome.com/c15b744a04.js" crossorigin="anonymo"></script>
+</body>
+
+</html>

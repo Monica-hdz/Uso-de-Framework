@@ -1,0 +1,37 @@
+*{
+    margin:0;
+      padding:0;
+      box-sizing: border_box;
+  }
+  body{
+      font-family: 'Arial black', sans-serif;
+      color:	#E04726;
+      font-size: 70;
+  }
+  footer{
+    background: #778899;
+    padding: 60px 0;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: auto;
+  }
+ 
+  .partFooter h4{
+   color: #fff;
+   font-size: 20px;
+   font-weight: 400;
+   margin-bottom: 30px;   
+  }
+ 
+  
+  .partFooter a{
+  display: block;
+  text-decoration: none;
+  color: #E04726;
+  font-weight: 300;
+  transition: color .3s ease-in-out;
+  margin-bottom: 10px; 
+ }
+ 
